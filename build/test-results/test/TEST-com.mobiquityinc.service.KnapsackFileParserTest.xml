@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mobiquityinc.service.KnapsackFileParserTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-10-21T12:41:22" hostname="Alireza-PC" time="0.007">
+  <properties/>
+  <testcase name="parseFile" classname="com.mobiquityinc.service.KnapsackFileParserTest" time="0.006"/>
+  <testcase name="couldNotFindItems" classname="com.mobiquityinc.service.KnapsackFileParserTest" time="0.0"/>
+  <testcase name="backpackItemIsIncomplete" classname="com.mobiquityinc.service.KnapsackFileParserTest" time="0.001"/>
+  <testcase name="InvalidLineFormat" classname="com.mobiquityinc.service.KnapsackFileParserTest" time="0.0"/>
+  <testcase name="parseLineSuccessful" classname="com.mobiquityinc.service.KnapsackFileParserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

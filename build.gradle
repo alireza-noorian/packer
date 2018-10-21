@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'com.mobiquityinc'
+version '1.0-SNAPSHOT'
+mainClassName = 'com.mobiquityinc.Main'
+sourceCompatibility = 1.8
+
+jar {
+    baseName = 'pcaker'
+    manifest {
+        attributes 'Main-Class': 'com.mobiquityinc.Main'
+    }
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mobiquityinc.packer.PackerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-10-21T12:41:22" hostname="Alireza-PC" time="0.004">
+  <properties/>
+  <testcase name="packSuccessful" classname="com.mobiquityinc.packer.PackerTest" time="0.004"/>
+  <testcase name="packFileNotFound" classname="com.mobiquityinc.packer.PackerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
